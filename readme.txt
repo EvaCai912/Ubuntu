@@ -5,3 +5,4 @@ Git has a mutable index called stage.
 have a new branch---'feature1'
 have a dev branch.
 this is a new master branch
+user --no-ff to git merge.
