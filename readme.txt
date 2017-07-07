@@ -3,3 +3,4 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 0 checkout2
 have a dev branch.
+this is a new master branch
