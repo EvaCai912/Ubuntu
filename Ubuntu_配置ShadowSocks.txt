@@ -1,0 +1,26 @@
+1.键入以下命令
+	sudo apt-get update  
+	sudo apt-get install python-gevent python-pip  
+	sudo pip install shadowsocks  
+	apt-get install python-m2crypto
+2.配置Shadowsocks
+	sudo gedit /etc/shadowsocks.json
+	写入如下内容：
+		{
+    		"server":"×××××.net",
+    		"server_port":×××××,
+    		"local_address": "127.0.0.1",
+    		"local_port":10801,
+    		"password":"×××××",
+    		"timeout":300,
+    		"method":"aes-256-cfb",
+    		"fast_open":false
+		}
+3.安装配置Shadowsocks -Qt5
+4.打开Shadowsocks -Qt5，连接-添加-自config.json,导入“/etc/shadowsocks.json”并保存，连接
+5.Ubuntu系统设置-网络-网络代理-手动中配置以下信息
+	Socks主机：127.0.0.1
+	对应端口：10801
+6.打开Chrome即可翻墙
+
+大概是酱紫，Tip:Chrome可以翻墙，Firefox无法翻墙，我不清楚是为什么。

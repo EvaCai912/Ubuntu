@@ -1,0 +1,13 @@
+1.下载压缩包
+	http://www.xmind.net/download/linux/
+
+2.解压
+	sudo mv xmind8 /opt/xmind8
+
+3.安装  
+	cd /opt/xmind8
+	sudo ./setup.h
+
+4.启动
+	cd /opt/xmind8/XMind_amd64 
+	sudo ./XMind
